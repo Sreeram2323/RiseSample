@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e56c9053-a87b-45f5-b9ff-de16b28d82ea" name="Changes" comment="implemented maven run" />
+    <list default="true" id="e56c9053-a87b-45f5-b9ff-de16b28d82ea" name="Changes" comment="removed unwanted packages">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/PageObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/PageObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testmethod/TestFunctionality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testmethod/TestFunctionality.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +22,15 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="main" />
+      </list>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -122,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668145653218</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="removed unwanted packages">
+      <created>1668146053215</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668146053215</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,6 +159,7 @@
     <MESSAGE value="test" />
     <MESSAGE value="Completed scripting to login to application and select 3 items randomly" />
     <MESSAGE value="implemented maven run" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented maven run" />
+    <MESSAGE value="removed unwanted packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed unwanted packages" />
   </component>
 </project>

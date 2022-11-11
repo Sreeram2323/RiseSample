@@ -43,19 +43,10 @@ public class TestFunctionality {
         element = obj1.select_item1(driver);
         element.click();
         Thread.sleep(2000);
-        element=obj1.back_to_products(driver);
-        element.click();
-        Thread.sleep(2000);
         element = obj1.select_item2(driver);
         element.click();
         Thread.sleep(2000);
-        element=obj1.back_to_products(driver);
-        element.click();
-        Thread.sleep(2000);
         element = obj1.select_item3(driver);
-        element.click();
-        Thread.sleep(2000);
-        element=obj1.back_to_products(driver);
         element.click();
         Thread.sleep(2000);
     }
