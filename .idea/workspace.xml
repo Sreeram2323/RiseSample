@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e56c9053-a87b-45f5-b9ff-de16b28d82ea" name="Changes" comment="Completed scripting to login to application and select 3 items randomly">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e56c9053-a87b-45f5-b9ff-de16b28d82ea" name="Changes" comment="implemented maven run" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,12 +29,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="TestNG.TestFunctionality.login_to_application">
     <configuration name="TestFunctionality" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RiseDemoProject" />
@@ -110,7 +108,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668144819708</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="implemented maven run">
+      <created>1668145481538</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668145481538</updated>
+    </task>
+    <task id="LOCAL-00005" summary="implemented maven run">
+      <created>1668145653218</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668145653218</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,6 +139,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="Completed scripting to login to application and select 3 items randomly" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed scripting to login to application and select 3 items randomly" />
+    <MESSAGE value="implemented maven run" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented maven run" />
   </component>
 </project>
