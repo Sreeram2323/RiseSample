@@ -19,22 +19,4 @@ public class PageObjects {
         element = driver.findElement(By.id("password"));
         return element;
     }
-    public WebElement select_item1 (WebDriver driver){
-        element = driver.findElement(By.xpath("//div[@class='inventory_list']/div[1]/div[2]/div[2]/button"));
-        return element;
-    }
-    public WebElement select_item2 (WebDriver driver){
-        element = driver.findElement(By.xpath("//div[@class='inventory_list']/div[2]/div[2]/div[2]/button"));
-        return element;
-    }
-    public WebElement select_item3 (WebDriver driver){
-        element = driver.findElement(By.xpath("//div[@class='inventory_list']/div[3]/div[2]/div[2]/button"));
-        return element;
-    }
-    public WebElement back_to_products (WebDriver driver){
-        element = driver.findElement(By.id("back-to-products"));
-        return element;
-    }
-
-
 }

@@ -2,10 +2,14 @@ package com.testmethod;
 
 import com.base.PageObjects;
 import com.base.base;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
+import javax.swing.plaf.synth.SynthOptionPaneUI;
+import java.util.List;
+import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 public class TestFunctionality {
@@ -40,14 +44,13 @@ public class TestFunctionality {
         Thread.sleep(2000);
         element.click();
         Thread.sleep(2000);
-        element = obj1.select_item1(driver);
-        element.click();
-        Thread.sleep(2000);
-        element = obj1.select_item2(driver);
-        element.click();
-        Thread.sleep(2000);
-        element = obj1.select_item3(driver);
-        element.click();
-        Thread.sleep(2000);
+        List<WebElement> list =  driver.findElements(By.xpath("//div[@class='pricebar']/button"));
+        int cnt = list.size();
+        for(int i=1;i<=3;i++) {
+            Random random = new Random();
+            int index = random.nextInt(cnt);
+            list.get(index).click();
+            Thread.sleep(2000);
+        }
     }
 }
